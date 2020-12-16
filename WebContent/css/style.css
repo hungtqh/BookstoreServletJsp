@@ -1,0 +1,221 @@
+/* <!-- Headers --> */
+.header-menu {
+	display: table;
+}
+
+.header-menu div {
+	display: table-cell; 
+	padding-right: 20px;
+}
+
+.header-menu a {
+	font-size: larger;
+}
+
+/* <!-- Global --> */
+a {
+	color: cornflowerBlue;
+}
+
+a:link {
+  	text-decoration: none;
+}
+
+a:visited {
+	color:indigo;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:active {
+	color: red;
+}
+
+.page-heading {
+	color: darkblue;
+}
+
+.message {
+	font-style: italic;
+	color: blue;
+}
+
+.error {
+	color: red;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.center {
+	align: center;
+}
+
+/* <!-- Table --> */
+
+.table-padding {
+	padding-top:20px;
+}
+
+.table-align {
+	align: left; 
+}
+
+td h2 {
+    margin: 27px 0 auto;
+}
+
+table { 
+  border-collapse: collapse;
+}
+
+.table-detail table {
+	border: 0;
+	margin-left:18%; 
+    margin-right:5%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+	background: #1E90FF;
+	color: cornsilk;
+	font-size: larger;
+}  
+
+.form td, .form th {
+	border: 0;
+	padding: 4px;
+}
+
+.form table {
+	border: 1px solid black;
+}
+
+/* <--! Components --> */
+
+button {
+	width: 60px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color:  white;
+	color: green;
+}
+
+input {
+	border: 1px solid;
+	border-radius: 3px;
+	border-color:  #66afe9;
+	size: 20;
+}
+
+textarea {
+	border-color:  #66afe9;
+}
+
+select {
+	border: 1px solid;
+	border-color:  #66afe9;
+}
+
+/* <!-- Products --> */
+.description {
+	 valign:top;
+	 padding-right: 10px; 
+	 text-align: justify;
+}
+
+.rating {
+	valign:top; 
+	align:left;
+}
+
+.price {
+	 valign: top;
+	 width: 20%;
+}
+
+.product-in-detail th, .product-in-detail td {
+	border: 0;
+}
+
+.form-product {
+	width: 80%;
+}
+
+#thumbnail {
+	width: 100px; 
+	margin-top: 10px;
+}
+
+.product-image-admin {
+	width: 60px; 
+}
+
+.product-img {
+	width: 128px;
+	height: 164px;
+}
+
+.product-search {
+	 vertical-align: top;
+	 align: left;
+	 display: inline-block;
+	 margin: 20px;
+}
+
+.product-img-detail {
+	width: 240px;
+	height: 300px;
+	margin-right: 10px;
+}
+
+.product-infor {
+	vertical-align: top;
+	display: inline-block;
+	margin: 20px;
+}
+
+.new-product-infor {
+	vertical-align: top;
+	display: inline-block;
+	margin: 20px;
+	width: 15%;
+}
+
+.product-detail {
+	max-width: 200px;
+	margin-bottom: 10px;
+}
+
+.title {
+	margin: 20px auto 0px;
+}
+
+.product-name { 
+	width: 300px;
+}
+
+.product-units {  
+	width: 200px;
+}
+
+
+/* Customer */
+.customer-form .input {
+	width: 200px;
+}
+
+/* Footer */
+
+footer {
+	clear: both;
+}
